@@ -1,0 +1,56 @@
+div.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    background: #0072BB;
+    color: #fff;
+    padding: 10px; /* Add padding for better spacing */
+    width: 100%; /* Make the footer span the entire width */
+    text-align: center; /* Center the text horizontally */
+    font-size: 16px; /* Increase the font size for better visibility */
+}
+
+/* Style the table within the footer */
+div.footer table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table rows */
+div.footer table tr {
+    text-align: center;
+}
+
+/* Style the table cells (td) */
+div.footer table td {
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+/* Add a hover effect to table cells */
+div.footer table td:hover {
+    background-color: #fff;
+    color: #0072BB;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: left;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0072BB;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #005499;
+}

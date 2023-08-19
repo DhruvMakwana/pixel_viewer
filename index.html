@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Pixel Analyzer - Analyze Pixel Values of Images</title>
+    <meta name="description" content="Analyze pixel values and alpha of images with this simple tool. Follow easy steps: choose an image, hover to view pixel data, and click to copy mouse position.">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="landing">
+        <h1>Welcome to Image Pixel Analyzer</h1>
+        <p>Explore and analyze pixel values in images effortlessly.</p>
+        <p>Follow these simple steps:</p>
+        <ol>
+            <li>Click the "Choose File" button to select an image from your device.</li>
+            <li>Hover over the image to see pixel values at your cursor position.</li>
+            <li>Click anywhere on the image to copy the mouse position (X;Y) to your clipboard.</li>
+        </ol>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <input type="file" id="inputImage" style="display: none;" accept="image/*"/>
+            <label for="inputImage" class="github-button">Open Image</label>
+        </div>
+        <canvas id="canvas" style="margin: 12px;"></canvas>
+        <div class="footer" id="results">Move your mouse over the image to display mouse location and pixel values.</div>
+    </main>
+
+    <div>
+        <h2>Report Issues</h2>
+        <p>If you encounter any bugs or have suggestions for improvement, please report them on our <a href="https://github.com/your-username/your-repository" target="_blank">GitHub Repository</a>.</p>
+    </div>
+
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
